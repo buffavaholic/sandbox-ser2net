@@ -23,4 +23,4 @@ RUN rm -rf /var/cache/apk/*
 
 #ADD . $APP_HOME
 
-ENTRYPOINT ["/usr/sbin/ser2net", "-c", "/etc/ser2net.conf"]
+ENTRYPOINT ["/usr/sbin/ser2net", "-c", "/etc/ser2net.conf","-n"]
